@@ -1,0 +1,12 @@
+# Github flow
+
+name: my-new-action # our workflow name
+on: workflow_dispatch #when it is going to happen
+jobs:
+  first-job: # This can be any namegit
+    runs-on: ubunt-latest #is the machine where our job is going to run
+    steps: #the steps should be preceded by a - name:
+      - name: Print Greeting
+        run: echo "Hello world"
+      - name: Print Bye
+        run: echo "Bye"
