@@ -1,5 +1,3 @@
-# Github flow
-
 name: my-new-action # our workflow name
 on: workflow_dispatch #when it is going to happen
 jobs:
